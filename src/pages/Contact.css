@@ -1,0 +1,33 @@
+/*mobile loadout*/
+.general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1.5rem;
+    padding: 2rem;
+}
+.image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.text {
+    text-align: center;
+    max-width: 450px;
+}
+/*desktop loadout*/
+@media (min-width: 768px){
+    .general{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        padding-top:0;
+    }
+
+    .text{
+        text-align: center;
+        max-width: 450px;
+    }
+}
