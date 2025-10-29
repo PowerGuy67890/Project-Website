@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "base": "/Project-Website/",
+  "homepage": "https://PowerGuy67890.github.io/Project-Website",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
