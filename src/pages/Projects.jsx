@@ -12,7 +12,7 @@ export default function Projects(){
                 href="https://github.com/PowerGuy67890/DND-project"
                 target="_blank"
                 rel="noopener noreferrer"
-                >
+                ></a></p>
                 <p>Here is a screenshot of my user interface:</p>
                 <img src={IMG_7758} alt="IMG_7758" className= "image"></img>
             </div>
