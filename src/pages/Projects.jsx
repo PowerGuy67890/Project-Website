@@ -1,13 +1,13 @@
 import "./Projects.css";
-import IMG_7758 from "../assets/IMG_7758.jpg"
+import IMG_7758 from "../assets/DND.png"
 export default function Projects(){
     return (
         <div className ="general"/*style={{padding: "2rem"}}*/>
             <div className= "text">
-                <h1>Here are some of my projects</h1>
-                <p>I lowkey don't have any comp sci projects yet</p>
-                <p>Actual projects will follow</p>
-                <p>I did theatre shows throughout high school. Here's a picture from one of my shows:</p>
+                <h1>My first real project is an attempt to simulate a DND campaign I played with my friends.</h1>
+                <p>I made an stylized user interface and used calls to an AI model locally to process information</p>
+                <p>It works great, albiet a little slow due to the amount of data it processes.</p>
+                <p>Here is a screenshot of the user interface:</p>
                 <img src={IMG_7758} alt="IMG_7758" className= "image"></img>
             </div>
         </div>
