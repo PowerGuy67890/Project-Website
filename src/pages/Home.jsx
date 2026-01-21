@@ -1,4 +1,4 @@
-import AMOGUS from "../assets/050.jpeg"
+import AMOGUS from "../assets/050.JPEG"
 import "./Home.css";
 import MoreInfo from "../componets/MoreInfo.jsx";
 
